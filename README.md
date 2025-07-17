@@ -40,4 +40,59 @@ Originally developed for **DEPI**, it can serve as a starter template or learnin
 ---
 
 ## 🏗️ Project Structure
+    /Controllers
+└── HomeController.cs
+/Models
+└── ExampleModel.cs
+/Views
+├── Home
+│ └── Index.cshtml
+/Views/Shared
+└── _Layout.cshtml
+wwwroot/
+└── css, js, images assets
+Startup.cs
+Program.cs
+README.md
+
+yaml
+Copy
+Edit
+
+---
+
+## ⚙️ Prerequisites
+
+- [.NET SDK 7.0+](https://dotnet.microsoft.com/download)
+- Optional: an IDE (Visual Studio, Visual Studio Code, Rider)
+
+---
+
+## 🛠️ Getting Started
+
+1. **Clone the repo:**
+   ```bash
+   git clone git@github.com:Adham-Elhawary/MVC.git
+   cd MVC
+---
+
+## 🎯 Usage
+
+- **Add a new Model**: Create a `.cs` file under `/Models` to define data structures.
+- **Create a Controller**: Place a C# class in `/Controllers`, inherit from `Controller`, and define action methods.
+- **Add Views**: Create matching folders and `.cshtml` files in `/Views` to render HTML for each action.
+- **Run & Test**: Use `dotnet run` or debug in your IDE to verify your changes.
+
+## 🤝 Contributing
+
+Pull requests and feedback are welcome! Please open an issue or submit a PR for bug fixes, new features, or improvements.
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+📫 **Contact**: [LinkedIn – Adham Elhawary](https://www.linkedin.com/in/adham-elhawary-26944a2b3/)
+
+If you find this project useful, feel free to star ⭐ the repository!
+
 
