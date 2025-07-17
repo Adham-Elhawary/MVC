@@ -40,7 +40,7 @@ Originally developed for **DEPI**, it can serve as a starter template or learnin
 ---
 
 ## 🏗️ Project Structure
-#Controllers
+Controllers
 └── HomeController.cs
 /Models
 └── ExampleModel.cs
